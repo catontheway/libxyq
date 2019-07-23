@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libgg">
+      <UniqueIdentifier>{4fb20c49-a381-498c-92a1-ce8138171046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib32">
+      <UniqueIdentifier>{3a2198aa-86bb-4a23-97ee-d4c3be735eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{f63cc65a-a68f-4680-a983-14b4c8aa5a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libcc">
+      <UniqueIdentifier>{5e582ff0-c32b-4f41-adb8-cfb9811572f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libgg\cLabel.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgg\cSprite.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgg\_gge42_dev18.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgg\cMain.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cAstar.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cLink2.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\cWas.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapWriter.h" />
+    <ClInclude Include="..\libcc\s565.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgg\cNode.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgg\Geometry.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libgg\Vec2.h">
+      <Filter>libgg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cFolder.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libgg\cLabel.cpp">
+      <Filter>libgg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgg\cSprite.cpp">
+      <Filter>libgg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgg\cMain.cpp">
+      <Filter>libgg</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\lib32\cAstar.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cLink2.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\cWas.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapWriter.cpp" />
+    <ClCompile Include="..\libcc\s565.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgg\cNode.cpp">
+      <Filter>libgg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgg\Geometry.cpp">
+      <Filter>libgg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libgg\Vec2.cpp">
+      <Filter>libgg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cFolderEasy.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libmap2d.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\libgg\Vec2.inl">
+      <Filter>libgg</Filter>
+    </None>
+  </ItemGroup>
+</Project>

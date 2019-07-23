@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libcc">
+      <UniqueIdentifier>{b069dab5-77fe-46c5-960f-2bd96bcea1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtxt">
+      <UniqueIdentifier>{ddc863c6-f7a7-4755-8252-c2bfaa5bddb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{bed928dd-ada6-48c9-b22a-48587a0cb1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libexpansion">
+      <UniqueIdentifier>{91fc7ec6-cf22-4c2a-b5ff-b8a1988d67da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtour">
+      <UniqueIdentifier>{102a6098-8a1d-4a49-9151-a6f0f4d44de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libui">
+      <UniqueIdentifier>{81330c0e-d67e-4334-89a0-1b66a98e80e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpro">
+      <UniqueIdentifier>{dd837ca4-b9a1-4bb1-b2e7-43e4a37677e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libtxt\txtAction.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtEasy.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtIcon.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtJiaju.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtMap.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtMedicine.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtMod.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtNpc.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtPet.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtRole.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtSkill.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtStone.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtWeapon.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtZuoqi.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtZz.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cChatManager.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMouse.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cNode.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cSprite.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cText.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\libutil\cLabel.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cLayer.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapFollow.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapRender.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cWdfs.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cSp.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="cMain.cpp" />
+    <ClCompile Include="..\libutil\cButton.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cDesc.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cTag.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cCursor.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt\txtXiangrui.cpp">
+      <Filter>libtxt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cGame.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cDye.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\cExpansion.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expChat.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expEasy.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expIcon.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expMenpai.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expNpc.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expPet.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expRank.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expRole.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expSkill.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expXiangrui.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expZuoqi.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libexpansion\expZz.cpp">
+      <Filter>libexpansion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtour\cMainTour.cpp">
+      <Filter>libtour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiManager.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiShichen.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\cDialog.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\cMap.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\cObject.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiAccelator.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiChannel.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiDazao.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiFoot.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiGrids.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiHeader.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiItem.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiJob.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiLearn.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiMenu.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiPad.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiPet.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiProperty.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiRank.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiSee.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiShop.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiSkill.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiSkiSelect.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiSmap.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiState.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiWorld.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiZz.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\ccp.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\cDyeRender.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\cEquip.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sAttribute.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sDye.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sExp.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sFormation.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sItem.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sMod.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sPet.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sPoint.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sProperty.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sPropertyInfo.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sRole.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sSki.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sXl.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sZz.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\uiDye.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sBags.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libpro\sTeam.cpp">
+      <Filter>libpro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libui\cScript.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\cDirection.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\s565.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\sDesc.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\cSave.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\cWas.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cFolder.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libtxt\_txt.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\_txtinc.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\eAct.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\eIcon.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\eMenpai.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\eMod.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\eSkill.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtAction.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtEasy.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtIcon.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtJiaju.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtMap.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtMedicine.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtMod.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtNpc.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtPet.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtRole.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtSkill.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtStone.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtWeapon.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtZuoqi.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtZz.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\_inc.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\_util.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cChatManager.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMouse.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cNode.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cSprite.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cText.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cLabel.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cLayer.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapFollow.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapRender.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cWdfs.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cSp.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="cMain.h" />
+    <ClInclude Include="..\libutil\cButton.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cDesc.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cTag.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cCursor.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt\txtXiangrui.h">
+      <Filter>libtxt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cGame.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cDye.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\_inc.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\cExpansion.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expChat.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expEasy.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expIcon.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expMenpai.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expNpc.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expPet.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expRank.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expRole.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expSkill.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expXiangrui.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expZuoqi.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libexpansion\expZz.h">
+      <Filter>libexpansion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtour\cMainTour.h">
+      <Filter>libtour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiManager.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiShichen.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\_inc.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\cDialog.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\cMap.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\cObject.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiAccelator.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiChannel.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiDazao.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiFoot.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiGrids.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiHeader.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiItem.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiJob.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiLearn.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiMenu.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiPad.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiPet.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiProperty.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiRank.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiSee.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiShop.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiSkill.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiSkiSelect.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiSmap.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiState.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiWorld.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiZz.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\_inc.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\_pro.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\ccp.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\cDyeRender.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\cEquip.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sAttribute.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sDye.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sExp.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sFormation.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sItem.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sMod.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sPet.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sPoint.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sProperty.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sPropertyInfo.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sRole.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sSki.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sXl.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sZz.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\uiDye.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sBags.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\_ui.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libpro\sTeam.h">
+      <Filter>libpro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libui\cScript.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_cc.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_cpp.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_random.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_string.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\cDirection.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\s565.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\sDesc.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\Vec2.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_32.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\cSave.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_coco.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\cWas.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\_folder.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cFolder.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_qcode.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libxyq.rc" />
+  </ItemGroup>
+</Project>

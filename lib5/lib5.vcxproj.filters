@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libass">
+      <UniqueIdentifier>{9f890148-c7fc-45d6-8d53-70bf873a7614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{2fbf96f0-5c76-4cb3-863f-a5127462b8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib5">
+      <UniqueIdentifier>{14d92949-8e10-4a1f-8c17-76503c7bfc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libcc">
+      <UniqueIdentifier>{88798792-e557-42ca-a0ff-35f052fd3a2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libass\bass.h">
+      <Filter>libass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libass\cBass.h">
+      <Filter>libass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cGame.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapRender.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cSp.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cWdfs.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libm5\_inc.h" />
+    <ClInclude Include="..\libm5\A_Start.h" />
+    <ClInclude Include="..\libm5\AI.h" />
+    <ClInclude Include="..\libm5\Canvas5.h" />
+    <ClInclude Include="..\libm5\ChangeColor.h" />
+    <ClInclude Include="..\libm5\global.h" />
+    <ClInclude Include="..\libm5\Input5.h" />
+    <ClInclude Include="..\libm5\Interface.h" />
+    <ClInclude Include="..\libm5\Interface2.h" />
+    <ClInclude Include="..\libm5\item.h" />
+    <ClInclude Include="..\libm5\Map.h" />
+    <ClInclude Include="..\libm5\MyMath.h" />
+    <ClInclude Include="..\libm5\MyScript.h" />
+    <ClInclude Include="..\libm5\mysound.h" />
+    <ClInclude Include="..\libm5\MyTest.h" />
+    <ClInclude Include="..\libm5\Object5.h" />
+    <ClInclude Include="..\libm5\PetData.h" />
+    <ClInclude Include="..\libm5\Script.h" />
+    <ClInclude Include="..\libm5\Skill.h" />
+    <ClInclude Include="..\libm5\State.h" />
+    <ClInclude Include="..\libm5\trigger.h" />
+    <ClInclude Include="..\libm5\trigger2.h" />
+    <ClInclude Include="..\libcc\s565.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cDye.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\cWas.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cFolder.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libass\cBass.cpp">
+      <Filter>libass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cGame.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapRender.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cSp.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cWdfs.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libm5\_inc.cpp" />
+    <ClCompile Include="..\libm5\A_Start.cpp" />
+    <ClCompile Include="..\libm5\AI.cpp" />
+    <ClCompile Include="..\libm5\AI5.cpp" />
+    <ClCompile Include="..\libm5\Canvas5.cpp" />
+    <ClCompile Include="..\libm5\ChangeColor.cpp" />
+    <ClCompile Include="..\libm5\Input5.cpp" />
+    <ClCompile Include="..\libm5\Interface.cpp" />
+    <ClCompile Include="..\libm5\Interface2.cpp" />
+    <ClCompile Include="..\libm5\item.cpp" />
+    <ClCompile Include="..\libm5\item5.cpp" />
+    <ClCompile Include="..\libm5\main5.cpp" />
+    <ClCompile Include="..\libm5\Map.cpp" />
+    <ClCompile Include="..\libm5\MyMath.cpp" />
+    <ClCompile Include="..\libm5\MyScript.cpp" />
+    <ClCompile Include="..\libm5\mysound.cpp" />
+    <ClCompile Include="..\libm5\MyTest.cpp" />
+    <ClCompile Include="..\libm5\Object2.cpp" />
+    <ClCompile Include="..\libm5\Object5.cpp" />
+    <ClCompile Include="..\libm5\PetData.cpp" />
+    <ClCompile Include="..\libm5\Script.cpp" />
+    <ClCompile Include="..\libm5\Skill.cpp" />
+    <ClCompile Include="..\libm5\Skill5.cpp" />
+    <ClCompile Include="..\libm5\State.cpp" />
+    <ClCompile Include="..\libm5\trigger.cpp" />
+    <ClCompile Include="..\libm5\trigger2.cpp" />
+    <ClCompile Include="..\libcc\s565.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cDye.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\cWas.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cFolder.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lib5.rc">
+      <Filter>lib5</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

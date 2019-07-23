@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{a633f190-76aa-4d91-8f2c-9e63e1330063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libcc">
+      <UniqueIdentifier>{19c520c3-9749-43c4-bfa9-5ed60711999d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libcc\cWas.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\s565.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cCursor.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cLabel.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMouse.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cNode.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cSp.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cSprite.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cBox.cpp" />
+    <ClCompile Include="uiPad.cpp" />
+    <ClCompile Include="..\libcc\cDirection.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\sDesc.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cFolderEasy.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libcc\cWas.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\s565.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cCursor.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cLabel.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMouse.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cNode.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cSp.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cSprite.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="uiPad.h" />
+    <ClInclude Include="cBox.h" />
+    <ClInclude Include="..\libcc\cDirection.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\sDesc.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cFolder.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="librowser.rc" />
+  </ItemGroup>
+</Project>

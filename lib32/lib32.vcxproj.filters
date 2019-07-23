@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="_dik.h" />
+    <ClInclude Include="_window.h" />
+    <ClInclude Include="cApp.h" />
+    <ClInclude Include="cAstar.h" />
+    <ClInclude Include="cInput.h" />
+    <ClInclude Include="cInputDevice.h" />
+    <ClInclude Include="cLink2.h" />
+    <ClInclude Include="cLoop.h" />
+    <ClInclude Include="cMp3.h" />
+    <ClInclude Include="cWav.h" />
+    <ClInclude Include="cWindSoul.h" />
+    <ClInclude Include="efolder.h" />
+    <ClInclude Include="_32.h" />
+    <ClInclude Include="_inc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cApp.cpp" />
+    <ClCompile Include="cAstar.cpp" />
+    <ClCompile Include="cInput.cpp" />
+    <ClCompile Include="cInputDevice.cpp" />
+    <ClCompile Include="cLink2.cpp" />
+    <ClCompile Include="cLoop.cpp" />
+    <ClCompile Include="cMp3.cpp" />
+    <ClCompile Include="cWav.cpp" />
+    <ClCompile Include="cWindSoul.cpp" />
+    <ClCompile Include="efolder.cpp" />
+  </ItemGroup>
+</Project>

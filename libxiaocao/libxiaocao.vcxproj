@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C7422E0-A69D-45AF-8D83-7D7A4F355885}</ProjectGuid>
+    <RootNamespace>mylxy</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)liblxy5\;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
+    <IntDir>$(SolutionDir)_library\libxiaocao_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)library\;$(SolutionDir)_library\;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</LibraryPath>
+    <OutDir>$(SolutionDir)\_output_$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)liblxy5\;$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);</IncludePath>
+    <IntDir>$(SolutionDir)_library\libxiaocao_$(Configuration)\</IntDir>
+    <LibraryPath>$(SolutionDir)library\;$(SolutionDir)_library\;$(VC_LibraryPath_x86);$(WindowsSdk_71A_LibraryPath_x86);</LibraryPath>
+    <OutDir>$(SolutionDir)\_output_$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <MinimumRequiredVersion>5.01</MinimumRequiredVersion>
+      <AdditionalDependencies>Msacm32.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Msacm32.lib;strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib</IgnoreSpecificDefaultLibraries>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libass\cBass.cpp" />
+    <ClCompile Include="..\liblxy5\AI_2.cpp" />
+    <ClCompile Include="..\liblxy5\AI_3000.cpp" />
+    <ClCompile Include="..\liblxy5\AI_finds.cpp" />
+    <ClCompile Include="..\liblxy5\AI_findTarget.cpp" />
+    <ClCompile Include="..\liblxy5\AI_if0.cpp" />
+    <ClCompile Include="..\liblxy5\AI_mp.cpp" />
+    <ClCompile Include="..\liblxy5\AI_static.cpp" />
+    <ClCompile Include="..\liblxy5\A_Start.cpp" />
+    <ClCompile Include="..\liblxy5\Canvas.cpp" />
+    <ClCompile Include="..\liblxy5\ccm.cpp" />
+    <ClCompile Include="..\liblxy5\ChangeColor.cpp" />
+    <ClCompile Include="..\liblxy5\ChangeColorData.cpp" />
+    <ClCompile Include="..\liblxy5\Character.cpp" />
+    <ClCompile Include="..\liblxy5\CharacterData.cpp" />
+    <ClCompile Include="..\liblxy5\Controler.cpp" />
+    <ClCompile Include="..\liblxy5\FaceText.cpp" />
+    <ClCompile Include="..\liblxy5\FightData.cpp" />
+    <ClCompile Include="..\liblxy5\FightState_Dowork.cpp" />
+    <ClCompile Include="..\liblxy5\Input.cpp" />
+    <ClCompile Include="..\liblxy5\IntData.cpp" />
+    <ClCompile Include="..\liblxy5\Item.cpp" />
+    <ClCompile Include="..\liblxy5\FangWu.cpp" />
+    <ClCompile Include="..\liblxy5\Item2.cpp" />
+    <ClCompile Include="..\liblxy5\ItemManager_Desc.cpp" />
+    <ClCompile Include="..\liblxy5\ItemManager_AutoProperty.cpp" />
+    <ClCompile Include="..\liblxy5\ItemManager_Effect.cpp" />
+    <ClCompile Include="..\liblxy5\ItemManager_Load.cpp" />
+    <ClCompile Include="..\liblxy5\ItemManager_HPMP.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Auto.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Battle.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Func.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Init.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_InitGame.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Show.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Obj.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_Other.cpp" />
+    <ClCompile Include="..\liblxy5\Map.cpp" />
+    <ClCompile Include="..\liblxy5\MyMap.cpp" />
+    <ClCompile Include="..\liblxy5\mysound.cpp" />
+    <ClCompile Include="..\liblxy5\Npc.cpp" />
+    <ClCompile Include="..\liblxy5\Obj.cpp" />
+    <ClCompile Include="..\liblxy5\ObjWasFather.cpp" />
+    <ClCompile Include="..\liblxy5\ObjWas.cpp" />
+    <ClCompile Include="..\liblxy5\PCData.cpp" />
+    <ClCompile Include="..\liblxy5\PetData.cpp" />
+    <ClCompile Include="..\liblxy5\Picture.cpp" />
+    <ClCompile Include="..\liblxy5\PointZZXL.cpp" />
+    <ClCompile Include="..\liblxy5\AI.cpp" />
+    <ClCompile Include="..\liblxy5\EndState.cpp" />
+    <ClCompile Include="..\liblxy5\Fightwork.cpp" />
+    <ClCompile Include="..\liblxy5\FightState.cpp" />
+    <ClCompile Include="..\liblxy5\PropertyData.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Use3.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_BuffUp.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Check.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Count.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Effect.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_HpMp.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Stage.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Use.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_BuffDown.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager_Use2.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_0.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_1.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_2.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_3.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_4.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_5.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_6.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_7.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian_8.cpp" />
+    <ClCompile Include="..\liblxy5\uiComPet.cpp" />
+    <ClCompile Include="..\liblxy5\uiFather.cpp" />
+    <ClCompile Include="..\liblxy5\uiJiaJu.cpp" />
+    <ClCompile Include="..\liblxy5\uiBank.cpp" />
+    <ClCompile Include="..\liblxy5\uiBuy.cpp" />
+    <ClCompile Include="..\liblxy5\uiBuyPet.cpp" />
+    <ClCompile Include="..\liblxy5\uiConduct.cpp" />
+    <ClCompile Include="..\liblxy5\uiCursor.cpp" />
+    <ClCompile Include="..\liblxy5\uiDaZao.cpp" />
+    <ClCompile Include="..\liblxy5\uiDesc.cpp" />
+    <ClCompile Include="..\liblxy5\uiDialog.cpp" />
+    <ClCompile Include="..\liblxy5\uiFB.cpp" />
+    <ClCompile Include="..\liblxy5\uiFight.cpp" />
+    <ClCompile Include="..\liblxy5\uiFriend.cpp" />
+    <ClCompile Include="..\liblxy5\uiFriendQH.cpp" />
+    <ClCompile Include="..\liblxy5\uiFriendSelect.cpp" />
+    <ClCompile Include="..\liblxy5\uiGive.cpp" />
+    <ClCompile Include="..\liblxy5\uiInput.cpp" />
+    <ClCompile Include="..\liblxy5\uiJianDing.cpp" />
+    <ClCompile Include="..\liblxy5\uiJob.cpp" />
+    <ClCompile Include="..\liblxy5\uiLearnSkill.cpp" />
+    <ClCompile Include="..\liblxy5\uiLearnSkillBP.cpp" />
+    <ClCompile Include="..\liblxy5\ItemManager.cpp" />
+    <ClCompile Include="..\liblxy5\MenPaiManager.cpp" />
+    <ClCompile Include="..\liblxy5\MenuState.cpp" />
+    <ClCompile Include="..\liblxy5\MyMath.cpp" />
+    <ClCompile Include="..\liblxy5\MyScript.cpp" />
+    <ClCompile Include="..\liblxy5\Pet.cpp" />
+    <ClCompile Include="..\liblxy5\PetManager.cpp" />
+    <ClCompile Include="..\liblxy5\Script.cpp" />
+    <ClCompile Include="..\liblxy5\SkillManager.cpp" />
+    <ClCompile Include="..\liblxy5\Sprite.cpp" />
+    <ClCompile Include="..\liblxy5\MainState.cpp" />
+    <ClCompile Include="..\liblxy5\TaskBangPai.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFB.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFB_CC.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFB_SJ.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFB_SL.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFB_SM.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFB_WJ.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFengYao.cpp" />
+    <ClCompile Include="..\liblxy5\TaskJiangLi.cpp" />
+    <ClCompile Include="..\liblxy5\TaskNormal.cpp" />
+    <ClCompile Include="..\liblxy5\TaskBaotu.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFather.cpp" />
+    <ClCompile Include="..\liblxy5\TaskHuoDong.cpp" />
+    <ClCompile Include="..\liblxy5\TaskJuQing.cpp" />
+    <ClCompile Include="..\liblxy5\TaskMapObj.cpp" />
+    <ClCompile Include="..\liblxy5\TaskSM.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhiXian.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuaGui.cpp" />
+    <ClCompile Include="..\liblxy5\Text.cpp" />
+    <ClCompile Include="..\liblxy5\Trigger.cpp" />
+    <ClCompile Include="..\liblxy5\TaskZhuXian.cpp" />
+    <ClCompile Include="..\liblxy5\TriggerMapObj.cpp" />
+    <ClCompile Include="..\liblxy5\TriggerLv.cpp" />
+    <ClCompile Include="..\liblxy5\TriggerDialog.cpp" />
+    <ClCompile Include="..\liblxy5\TriggerTime.cpp" />
+    <ClCompile Include="..\liblxy5\TriggerObj.cpp" />
+    <ClCompile Include="..\liblxy5\TriggerGive.cpp" />
+    <ClCompile Include="..\liblxy5\uiAccelator.cpp" />
+    <ClCompile Include="..\liblxy5\uiBigMagic.cpp" />
+    <ClCompile Include="..\liblxy5\uiChannel.cpp" />
+    <ClCompile Include="..\liblxy5\uiItem.cpp" />
+    <ClCompile Include="..\liblxy5\uiMenu.cpp" />
+    <ClCompile Include="..\liblxy5\uiPCHead.cpp" />
+    <ClCompile Include="..\liblxy5\uiPet.cpp" />
+    <ClCompile Include="..\liblxy5\uiPetSkill.cpp" />
+    <ClCompile Include="..\liblxy5\uiRanSe.cpp" />
+    <ClCompile Include="..\liblxy5\uiSee.cpp" />
+    <ClCompile Include="..\liblxy5\uiShiChen.cpp" />
+    <ClCompile Include="..\liblxy5\uiSign.cpp" />
+    <ClCompile Include="..\liblxy5\uiSkill.cpp" />
+    <ClCompile Include="..\liblxy5\uiSmap.cpp" />
+    <ClCompile Include="..\liblxy5\uiState.cpp" />
+    <ClCompile Include="..\liblxy5\uiSys.cpp" />
+    <ClCompile Include="..\liblxy5\uiTag.cpp" />
+    <ClCompile Include="..\liblxy5\uiTeam.cpp" />
+    <ClCompile Include="..\liblxy5\uiWorld.cpp" />
+    <ClCompile Include="..\liblxy5\uiXiangRui.cpp" />
+    <ClCompile Include="..\liblxy5\uiXL.cpp" />
+    <ClCompile Include="..\liblxy5\Wdf.cpp" />
+    <ClCompile Include="..\liblxy5\WasFile.cpp" />
+    <ClCompile Include="..\liblxy5\ZuoQi.cpp" />
+    <ClCompile Include="..\liblxy5\ZuoQiData.cpp" />
+    <ClCompile Include="..\liblxy5\cct.cpp" />
+    <ClCompile Include="..\libtxt5\TxtChat.cpp" />
+    <ClCompile Include="..\libtxt5\TxtFoot.cpp" />
+    <ClCompile Include="..\libtxt5\TxtItem.cpp" />
+    <ClCompile Include="..\libtxt5\TxtJiaju.cpp" />
+    <ClCompile Include="..\libtxt5\TxtMap.cpp" />
+    <ClCompile Include="..\libtxt5\TxtMenpai.cpp" />
+    <ClCompile Include="..\libtxt5\TxtModelPet.cpp" />
+    <ClCompile Include="..\libtxt5\TxtModelPet2.cpp" />
+    <ClCompile Include="..\libtxt5\TxtModelRole.cpp" />
+    <ClCompile Include="..\libtxt5\TxtNpc.cpp" />
+    <ClCompile Include="..\libtxt5\TxtScript.cpp" />
+    <ClCompile Include="..\libtxt5\TxtShop.cpp" />
+    <ClCompile Include="..\libtxt5\TxtSkill.cpp" />
+    <ClCompile Include="..\libtxt5\TxtWeapon.cpp" />
+    <ClCompile Include="..\libtxt5\TxtZuoqi.cpp" />
+    <ClCompile Include="..\libtxt5\TxtZZ.cpp" />
+    <ClCompile Include="..\libutil\cFolder.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libass\cBass.h" />
+    <ClInclude Include="..\liblxy5\A_Start.h" />
+    <ClInclude Include="..\liblxy5\Canvas.h" />
+    <ClInclude Include="..\liblxy5\ChangeColor.h" />
+    <ClInclude Include="..\liblxy5\ChangeColorData.h" />
+    <ClInclude Include="..\liblxy5\Character.h" />
+    <ClInclude Include="..\liblxy5\CharacterData.h" />
+    <ClInclude Include="..\liblxy5\Controler.h" />
+    <ClInclude Include="..\liblxy5\eMenPai.h" />
+    <ClInclude Include="..\liblxy5\eObj.h" />
+    <ClInclude Include="..\liblxy5\ePet.h" />
+    <ClInclude Include="..\liblxy5\ePetSkill.h" />
+    <ClInclude Include="..\liblxy5\FaceText.h" />
+    <ClInclude Include="..\liblxy5\FightData.h" />
+    <ClInclude Include="..\liblxy5\Input.h" />
+    <ClInclude Include="..\liblxy5\IntData.h" />
+    <ClInclude Include="..\liblxy5\Item.h" />
+    <ClInclude Include="..\liblxy5\FangWu.h" />
+    <ClInclude Include="..\liblxy5\Item2.h" />
+    <ClInclude Include="..\liblxy5\JinJie.h" />
+    <ClInclude Include="..\liblxy5\Map.h" />
+    <ClInclude Include="..\liblxy5\MyMap.h" />
+    <ClInclude Include="..\liblxy5\mysound.h" />
+    <ClInclude Include="..\liblxy5\Npc.h" />
+    <ClInclude Include="..\liblxy5\Obj.h" />
+    <ClInclude Include="..\liblxy5\ObjWasFather.h" />
+    <ClInclude Include="..\liblxy5\ObjWas.h" />
+    <ClInclude Include="..\liblxy5\PCData.h" />
+    <ClInclude Include="..\liblxy5\PetData.h" />
+    <ClInclude Include="..\liblxy5\Picture.h" />
+    <ClInclude Include="..\liblxy5\PointZZXL.h" />
+    <ClInclude Include="..\liblxy5\AI.h" />
+    <ClInclude Include="..\liblxy5\EndState.h" />
+    <ClInclude Include="..\liblxy5\FightWork.h" />
+    <ClInclude Include="..\liblxy5\FightState.h" />
+    <ClInclude Include="..\liblxy5\PropertyData.h" />
+    <ClInclude Include="..\liblxy5\resource.h" />
+    <ClInclude Include="..\liblxy5\SkillData.h" />
+    <ClInclude Include="..\liblxy5\uiComPet.h" />
+    <ClInclude Include="..\liblxy5\uiSign.h" />
+    <ClInclude Include="..\liblxy5\uiXiangRui.h" />
+    <ClInclude Include="..\liblxy5\Wdf.h" />
+    <ClInclude Include="..\liblxy5\WasFile.h" />
+    <ClInclude Include="..\liblxy5\ZuoQiData.h" />
+    <ClInclude Include="..\liblxy5\uiJiaJu.h" />
+    <ClInclude Include="..\liblxy5\uiBank.h" />
+    <ClInclude Include="..\liblxy5\uiBuy.h" />
+    <ClInclude Include="..\liblxy5\uiConduct.h" />
+    <ClInclude Include="..\liblxy5\uiCursor.h" />
+    <ClInclude Include="..\liblxy5\uiDaZao.h" />
+    <ClInclude Include="..\liblxy5\uiDesc.h" />
+    <ClInclude Include="..\liblxy5\uiDialog.h" />
+    <ClInclude Include="..\liblxy5\uiFB.h" />
+    <ClInclude Include="..\liblxy5\uiFight.h" />
+    <ClInclude Include="..\liblxy5\uiFriend.h" />
+    <ClInclude Include="..\liblxy5\uiFriendQH.h" />
+    <ClInclude Include="..\liblxy5\uiFriendSelect.h" />
+    <ClInclude Include="..\liblxy5\uiGive.h" />
+    <ClInclude Include="..\liblxy5\uiInput.h" />
+    <ClInclude Include="..\liblxy5\uiJianDing.h" />
+    <ClInclude Include="..\liblxy5\uiJob.h" />
+    <ClInclude Include="..\liblxy5\uiLearnSkill.h" />
+    <ClInclude Include="..\liblxy5\uiLearnSkillBP.h" />
+    <ClInclude Include="..\liblxy5\ItemManager.h" />
+    <ClInclude Include="..\liblxy5\MenPaiManager.h" />
+    <ClInclude Include="..\liblxy5\MenuState.h" />
+    <ClInclude Include="..\liblxy5\MyMath.h" />
+    <ClInclude Include="..\liblxy5\MyScript.h" />
+    <ClInclude Include="..\liblxy5\ccm.h" />
+    <ClInclude Include="..\liblxy5\Object.h" />
+    <ClInclude Include="..\liblxy5\Pet.h" />
+    <ClInclude Include="..\liblxy5\PetManager.h" />
+    <ClInclude Include="..\liblxy5\Script.h" />
+    <ClInclude Include="..\liblxy5\SkillManager.h" />
+    <ClInclude Include="..\liblxy5\Sprite.h" />
+    <ClInclude Include="..\liblxy5\MainState.h" />
+    <ClInclude Include="..\liblxy5\TaskBangPai.h" />
+    <ClInclude Include="..\liblxy5\TaskFB.h" />
+    <ClInclude Include="..\liblxy5\TaskFengYao.h" />
+    <ClInclude Include="..\liblxy5\TaskJiangLi.h" />
+    <ClInclude Include="..\liblxy5\TaskNormal.h" />
+    <ClInclude Include="..\liblxy5\TaskBaotu.h" />
+    <ClInclude Include="..\liblxy5\TaskFather.h" />
+    <ClInclude Include="..\liblxy5\TaskHuoDong.h" />
+    <ClInclude Include="..\liblxy5\TaskJuQing.h" />
+    <ClInclude Include="..\liblxy5\TaskMapObj.h" />
+    <ClInclude Include="..\liblxy5\TaskSM.h" />
+    <ClInclude Include="..\liblxy5\TaskZhiXian.h" />
+    <ClInclude Include="..\liblxy5\TaskZhuaGui.h" />
+    <ClInclude Include="..\liblxy5\Text.h" />
+    <ClInclude Include="..\liblxy5\Trigger.h" />
+    <ClInclude Include="..\liblxy5\TaskZhuXian.h" />
+    <ClInclude Include="..\liblxy5\TriggerMapObj.h" />
+    <ClInclude Include="..\liblxy5\TriggerLv.h" />
+    <ClInclude Include="..\liblxy5\TriggerDialog.h" />
+    <ClInclude Include="..\liblxy5\TriggerTime.h" />
+    <ClInclude Include="..\liblxy5\TriggerObj.h" />
+    <ClInclude Include="..\liblxy5\TriggerGive.h" />
+    <ClInclude Include="..\liblxy5\uiAccelator.h" />
+    <ClInclude Include="..\liblxy5\uiBigMaigc.h" />
+    <ClInclude Include="..\liblxy5\uiChannel.h" />
+    <ClInclude Include="..\liblxy5\uiFather.h" />
+    <ClInclude Include="..\liblxy5\uiItem.h" />
+    <ClInclude Include="..\liblxy5\uiMenu.h" />
+    <ClInclude Include="..\liblxy5\uiPCHead.h" />
+    <ClInclude Include="..\liblxy5\uiPet.h" />
+    <ClInclude Include="..\liblxy5\uiPetSkill.h" />
+    <ClInclude Include="..\liblxy5\uiRanSe.h" />
+    <ClInclude Include="..\liblxy5\uiBuyPet.h" />
+    <ClInclude Include="..\liblxy5\uiSee.h" />
+    <ClInclude Include="..\liblxy5\uiShiChen.h" />
+    <ClInclude Include="..\liblxy5\uiSkill.h" />
+    <ClInclude Include="..\liblxy5\uiSmap.h" />
+    <ClInclude Include="..\liblxy5\uiState.h" />
+    <ClInclude Include="..\liblxy5\uiSys.h" />
+    <ClInclude Include="..\liblxy5\uiTag.h" />
+    <ClInclude Include="..\liblxy5\uiTeam.h" />
+    <ClInclude Include="..\liblxy5\uiWorld.h" />
+    <ClInclude Include="..\liblxy5\uiXL.h" />
+    <ClInclude Include="..\liblxy5\ZuoQi.h" />
+    <ClInclude Include="..\liblxy5\_asert.h" />
+    <ClInclude Include="..\liblxy5\_base.h" />
+    <ClInclude Include="..\liblxy5\cct.h" />
+    <ClInclude Include="..\liblxy5\_global.h" />
+    <ClInclude Include="..\liblxy5\_inc.h" />
+    <ClInclude Include="..\liblxy5\_obj.h" />
+    <ClInclude Include="..\liblxy5\_objinc.h" />
+    <ClInclude Include="..\liblxy5\_state.h" />
+    <ClInclude Include="..\liblxy5\_stateinc.h" />
+    <ClInclude Include="..\liblxy5\_task.h" />
+    <ClInclude Include="..\liblxy5\_taskinc.h" />
+    <ClInclude Include="..\liblxy5\_txt.h" />
+    <ClInclude Include="..\liblxy5\_ui.h" />
+    <ClInclude Include="..\liblxy5\_uiinc.h" />
+    <ClInclude Include="..\libtxt5\eModel.h" />
+    <ClInclude Include="..\libtxt5\TxtChat.h" />
+    <ClInclude Include="..\libtxt5\TxtFoot.h" />
+    <ClInclude Include="..\libtxt5\TxtItem.h" />
+    <ClInclude Include="..\libtxt5\TxtJiaju.h" />
+    <ClInclude Include="..\libtxt5\TxtMap.h" />
+    <ClInclude Include="..\libtxt5\TxtMenpai.h" />
+    <ClInclude Include="..\libtxt5\TxtModelPet.h" />
+    <ClInclude Include="..\libtxt5\TxtModelRole.h" />
+    <ClInclude Include="..\libtxt5\TxtNpc.h" />
+    <ClInclude Include="..\libtxt5\TxtScript.h" />
+    <ClInclude Include="..\libtxt5\TxtShop.h" />
+    <ClInclude Include="..\libtxt5\TxtSkill.h" />
+    <ClInclude Include="..\libtxt5\TxtWeapon.h" />
+    <ClInclude Include="..\libtxt5\TxtZuoqi.h" />
+    <ClInclude Include="..\libtxt5\TxtZZ.h" />
+    <ClInclude Include="..\libtxt5\_txtinc.h" />
+    <ClInclude Include="..\libutil\cFolder.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libxiaocao.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

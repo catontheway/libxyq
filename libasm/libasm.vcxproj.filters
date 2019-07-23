@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="alpha16.asm" />
+    <CustomBuild Include="blit16.asm" />
+    <CustomBuild Include="box16.asm" />
+    <CustomBuild Include="font16.asm" />
+    <CustomBuild Include="string.asm" />
+    <CustomBuild Include="surface.asm" />
+    <CustomBuild Include="text16.asm" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BMP.c" />
+    <ClCompile Include="compress.c" />
+    <ClCompile Include="decode.c" />
+    <ClCompile Include="HUFFMAN.C" />
+    <ClCompile Include="IDCT.C" />
+    <ClCompile Include="IDCT2D.C" />
+    <ClCompile Include="JPEG.C" />
+    <ClCompile Include="pack.c" />
+    <ClCompile Include="QUANTY.C" />
+    <ClCompile Include="RGB.C" />
+    <ClCompile Include="SEGMENT.C" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JPEG.H" />
+    <ClInclude Include="JPEGINT.H" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B88DFC95-AA62-49D2-9049-D3F60093C272}</ProjectGuid>
+    <RootNamespace>libwindsoul</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)_library\</OutDir>
+    <IntDir>$(SolutionDir)_library\libwindsoul_$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_mdd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)_library\</OutDir>
+    <IntDir>$(SolutionDir)_library\libwindsoul_$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_mt</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USING_V110_SDK71_;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>_USING_V110_SDK71_;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="achannel.cpp" />
+    <ClCompile Include="bitmap.cpp" />
+    <ClCompile Include="blit.cpp" />
+    <ClCompile Include="CANVAS.CPP" />
+    <ClCompile Include="datafile.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="gdi.cpp" />
+    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="rand.cpp" />
+    <ClCompile Include="readbmp.cpp" />
+    <ClCompile Include="readtga.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="tips.cpp" />
+    <ClCompile Include="Wsound.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="WSTRING.CPP" />
+    <ClCompile Include="wsurface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="achannel.h" />
+    <ClInclude Include="bmpmem.h" />
+    <ClInclude Include="canvasin.h" />
+    <ClInclude Include="edgechar.h" />
+    <ClInclude Include="fontint.h" />
+    <ClInclude Include="geoint.h" />
+    <ClInclude Include="objheap.h" />
+    <ClInclude Include="objint.h" />
+    <ClInclude Include="sndint.h" />
+    <ClInclude Include="sptcache.h" />
+    <ClInclude Include="textint.h" />
+    <ClInclude Include="windsoul.h" />
+    <ClInclude Include="wsaddon.h" />
+    <ClInclude Include="wsalpha.h" />
+    <ClInclude Include="wsbitmap.h" />
+    <ClInclude Include="wscache.h" />
+    <ClInclude Include="wscanvas.h" />
+    <ClInclude Include="wserror.h" />
+    <ClInclude Include="wsfile.h" />
+    <ClInclude Include="wsfont.h" />
+    <ClInclude Include="wsgeo.h" />
+    <ClInclude Include="wshelper.h" />
+    <ClInclude Include="wsjpeg.h" />
+    <ClInclude Include="wsloz.h" />
+    <ClInclude Include="wsmask.h" />
+    <ClInclude Include="wsmemory.h" />
+    <ClInclude Include="wsound.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="wsprite.h" />
+    <ClInclude Include="wsrandom.h" />
+    <ClInclude Include="wsrich.h" />
+    <ClInclude Include="wsstring.h" />
+    <ClInclude Include="wsterra.h" />
+    <ClInclude Include="wstimer.h" />
+    <ClInclude Include="wstips.h" />
+    <ClInclude Include="wsurface.h" />
+    <ClInclude Include="wswitch.h" />
+    <ClInclude Include="wszoom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="alpha16.obj" />
+    <Object Include="blit16.obj" />
+    <Object Include="box16.obj" />
+    <Object Include="font16.obj" />
+    <Object Include="string.obj" />
+    <Object Include="surface.obj" />
+    <Object Include="text16.obj" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

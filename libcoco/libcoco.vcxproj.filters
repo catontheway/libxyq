@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="platform">
+      <UniqueIdentifier>{605bb725-03c1-4b2b-bf87-648c656b7a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2d">
+      <UniqueIdentifier>{8d7f7dba-9e28-4cd9-a69a-3425daf8bc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{6022d6af-6158-446c-8494-977c008b4df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{1ef04332-002d-4ae6-8a49-34a52071c49a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2d\CCAction.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCActionCatmullRom.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCActionEase.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCActionInstant.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCActionInterval.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCActionManager.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCActionTween.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCComponent.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCComponentContainer.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCNode.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCScene.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\CCTweenFunction.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="base\CCAutoreleasePool.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ccCArray.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\CCDirector.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ccRandom.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\CCRef.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\CCScheduler.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ccTypes.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="math\CCAffineTransform.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\CCGeometry.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Mat4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\MathUtil.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Quaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\TransformUtils.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vec2.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vec3.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\Vec4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\CCStdC.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2d\CCAction.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCActionCatmullRom.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCActionEase.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCActionInstant.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCActionInterval.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCActionManager.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCActionTween.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCComponent.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCComponentContainer.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCNode.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCScene.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\CCTweenFunction.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CCAutoreleasePool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ccCArray.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ccConfig.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CCDirector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ccMacros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CCMap.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ccRandom.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CCRef.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CCScheduler.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ccTypes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\CCVector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\uthash.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\utlist.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="math\CCAffineTransform.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\CCGeometry.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\CCMath.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\CCMathBase.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Mat4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\MathUtil.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\TransformUtils.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vec2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vec3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vec4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\CCPlatformConfig.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\CCPlatformDefine.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\CCPlatformMacros.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\CCStdC.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="_coco.h" />
+    <ClInclude Include="_create.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="math\Mat4.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="math\MathUtil.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="math\Quaternion.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="math\Vec2.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="math\Vec3.inl">
+      <Filter>math</Filter>
+    </None>
+    <None Include="math\Vec4.inl">
+      <Filter>math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

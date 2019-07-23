@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="achannel.cpp" />
+    <ClCompile Include="bitmap.cpp" />
+    <ClCompile Include="blit.cpp" />
+    <ClCompile Include="CANVAS.CPP" />
+    <ClCompile Include="datafile.cpp" />
+    <ClCompile Include="font.cpp" />
+    <ClCompile Include="gdi.cpp" />
+    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="rand.cpp" />
+    <ClCompile Include="readbmp.cpp" />
+    <ClCompile Include="readtga.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="tips.cpp" />
+    <ClCompile Include="Wsound.cpp" />
+    <ClCompile Include="WSTRING.CPP" />
+    <ClCompile Include="wsurface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="achannel.h" />
+    <ClInclude Include="bmpmem.h" />
+    <ClInclude Include="canvasin.h" />
+    <ClInclude Include="edgechar.h" />
+    <ClInclude Include="fontint.h" />
+    <ClInclude Include="geoint.h" />
+    <ClInclude Include="objheap.h" />
+    <ClInclude Include="objint.h" />
+    <ClInclude Include="sndint.h" />
+    <ClInclude Include="sptcache.h" />
+    <ClInclude Include="textint.h" />
+    <ClInclude Include="windsoul.h" />
+    <ClInclude Include="wsaddon.h" />
+    <ClInclude Include="wsalpha.h" />
+    <ClInclude Include="wsbitmap.h" />
+    <ClInclude Include="wscache.h" />
+    <ClInclude Include="wscanvas.h" />
+    <ClInclude Include="wserror.h" />
+    <ClInclude Include="wsfile.h" />
+    <ClInclude Include="wsfont.h" />
+    <ClInclude Include="wsgeo.h" />
+    <ClInclude Include="wshelper.h" />
+    <ClInclude Include="wsjpeg.h" />
+    <ClInclude Include="wsloz.h" />
+    <ClInclude Include="wsmask.h" />
+    <ClInclude Include="wsmemory.h" />
+    <ClInclude Include="wsound.h" />
+    <ClInclude Include="wsprite.h" />
+    <ClInclude Include="wsrandom.h" />
+    <ClInclude Include="wsrich.h" />
+    <ClInclude Include="wsstring.h" />
+    <ClInclude Include="wsterra.h" />
+    <ClInclude Include="wstimer.h" />
+    <ClInclude Include="wstips.h" />
+    <ClInclude Include="wsurface.h" />
+    <ClInclude Include="wswitch.h" />
+    <ClInclude Include="wszoom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="alpha16.obj" />
+    <Object Include="blit16.obj" />
+    <Object Include="box16.obj" />
+    <Object Include="font16.obj" />
+    <Object Include="string.obj" />
+    <Object Include="surface.obj" />
+    <Object Include="text16.obj" />
+  </ItemGroup>
+</Project>

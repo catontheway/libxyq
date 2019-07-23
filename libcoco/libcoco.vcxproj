@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2d\CCAction.cpp" />
+    <ClCompile Include="2d\CCActionCatmullRom.cpp" />
+    <ClCompile Include="2d\CCActionEase.cpp" />
+    <ClCompile Include="2d\CCActionInstant.cpp" />
+    <ClCompile Include="2d\CCActionInterval.cpp" />
+    <ClCompile Include="2d\CCActionManager.cpp" />
+    <ClCompile Include="2d\CCActionTween.cpp" />
+    <ClCompile Include="2d\CCComponent.cpp" />
+    <ClCompile Include="2d\CCComponentContainer.cpp" />
+    <ClCompile Include="2d\CCNode.cpp" />
+    <ClCompile Include="2d\CCScene.cpp" />
+    <ClCompile Include="2d\CCTweenFunction.cpp" />
+    <ClCompile Include="base\CCAutoreleasePool.cpp" />
+    <ClCompile Include="base\ccCArray.cpp" />
+    <ClCompile Include="base\CCDirector.cpp" />
+    <ClCompile Include="base\ccRandom.cpp" />
+    <ClCompile Include="base\CCRef.cpp" />
+    <ClCompile Include="base\CCScheduler.cpp" />
+    <ClCompile Include="base\ccTypes.cpp" />
+    <ClCompile Include="math\CCAffineTransform.cpp" />
+    <ClCompile Include="math\CCGeometry.cpp" />
+    <ClCompile Include="math\Mat4.cpp" />
+    <ClCompile Include="math\MathUtil.cpp" />
+    <ClCompile Include="math\Quaternion.cpp" />
+    <ClCompile Include="math\TransformUtils.cpp" />
+    <ClCompile Include="math\Vec2.cpp" />
+    <ClCompile Include="math\Vec3.cpp" />
+    <ClCompile Include="math\Vec4.cpp" />
+    <ClCompile Include="platform\CCStdC.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2d\CCAction.h" />
+    <ClInclude Include="2d\CCActionCatmullRom.h" />
+    <ClInclude Include="2d\CCActionEase.h" />
+    <ClInclude Include="2d\CCActionInstant.h" />
+    <ClInclude Include="2d\CCActionInterval.h" />
+    <ClInclude Include="2d\CCActionManager.h" />
+    <ClInclude Include="2d\CCActionTween.h" />
+    <ClInclude Include="2d\CCComponent.h" />
+    <ClInclude Include="2d\CCComponentContainer.h" />
+    <ClInclude Include="2d\CCNode.h" />
+    <ClInclude Include="2d\CCScene.h" />
+    <ClInclude Include="2d\CCTweenFunction.h" />
+    <ClInclude Include="base\CCAutoreleasePool.h" />
+    <ClInclude Include="base\ccCArray.h" />
+    <ClInclude Include="base\ccConfig.h" />
+    <ClInclude Include="base\CCDirector.h" />
+    <ClInclude Include="base\ccMacros.h" />
+    <ClInclude Include="base\CCMap.h" />
+    <ClInclude Include="base\ccRandom.h" />
+    <ClInclude Include="base\CCRef.h" />
+    <ClInclude Include="base\CCScheduler.h" />
+    <ClInclude Include="base\ccTypes.h" />
+    <ClInclude Include="base\CCVector.h" />
+    <ClInclude Include="base\uthash.h" />
+    <ClInclude Include="base\utlist.h" />
+    <ClInclude Include="math\CCAffineTransform.h" />
+    <ClInclude Include="math\CCGeometry.h" />
+    <ClInclude Include="math\CCMath.h" />
+    <ClInclude Include="math\CCMathBase.h" />
+    <ClInclude Include="math\Mat4.h" />
+    <ClInclude Include="math\MathUtil.h" />
+    <ClInclude Include="math\Quaternion.h" />
+    <ClInclude Include="math\TransformUtils.h" />
+    <ClInclude Include="math\Vec2.h" />
+    <ClInclude Include="math\Vec3.h" />
+    <ClInclude Include="math\Vec4.h" />
+    <ClInclude Include="platform\CCPlatformConfig.h" />
+    <ClInclude Include="platform\CCPlatformDefine.h" />
+    <ClInclude Include="platform\CCPlatformMacros.h" />
+    <ClInclude Include="platform\CCStdC.h" />
+    <ClInclude Include="_coco.h" />
+    <ClInclude Include="_create.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="math\Mat4.inl" />
+    <None Include="math\MathUtil.inl" />
+    <None Include="math\Quaternion.inl" />
+    <None Include="math\Vec2.inl" />
+    <None Include="math\Vec3.inl" />
+    <None Include="math\Vec4.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{89F25B20-3040-4F91-8CE4-E817C524559F}</ProjectGuid>
+    <RootNamespace>libcoco</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)_library\</OutDir>
+    <IntDir>$(SolutionDir)_library\libcoco_$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_mdd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)_library\</OutDir>
+    <IntDir>$(SolutionDir)_library\libcoco_$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_mt</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

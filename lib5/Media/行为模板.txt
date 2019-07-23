@@ -1,0 +1,137 @@
+独白 ~
+STRING
+NPC是否选择 描述~ 
+STRING 
+双选择  谁~ 描述~ 选项1 ~ 选项2 ~
+STRING
+STRING
+STRING
+STRING
+三选择 谁~ 描述~ 选项1 ~ 选项2 ~ 选项3 ~ 
+STRING
+STRING
+STRING
+STRING
+STRING
+四选择 谁~ 描述~ 选项1 ~ 选项2 ~ 选项3 ~ 选项4 ~
+STRING
+STRING
+STRING
+STRING
+STRING
+STRING
+脚本结束
+case ~
+INT
+break
+default
+地图转换 地图名~ X~ Y~
+STRING
+INT 
+INT 
+指针跳跃 跳到几号标签~ 向上 ~ 
+INT
+INT
+购买界面 类型~ 商品等级~
+INT 
+INT
+结束switch
+无人独白 ~
+STRING
+黑幕开关 ~
+BOOL
+吐槽 ~ 说 ~ 频道 ~
+STRING
+STRING
+INT
+设置开关 哪个~  状态~
+INT
+INT
+设置触发 地图 ~ 位置 ~  ~ 范围 ~
+STRING
+INT
+INT
+INT
+设置任务 名字 ~  描述 ~ 
+STRING
+STRING
+加载主角 名字 ~  用于加载的ID ~
+STRING
+INT
+角色入队 源ID  ~  目标ID ~
+INT
+INT
+设置角色位置 ID ~  X ~ Y ~ 方向 ~
+INT
+INT
+INT
+INT
+开启任务 脚本名 ~ 
+STRING
+标签 ID ~ 
+INT
+设置触发 地图 ~ 名字 ~
+STRING
+STRING
+读取对话链 名字 ~ ID ~
+STRING
+INT
+锁定地图 是否锁定 ~ 锁定到哪 X~ Y~
+INT
+INT
+INT
+等待 时间 ~
+INT
+得到钱  现金 ~ 储备金 ~ 角色ID ~
+INT
+INT
+INT
+得到经验 ~ 角色ID ~
+INT
+INT
+检查金钱 现金 ~ 储备金 ~ 角色ID ~
+INT
+INT
+INT
+得到物品 类型 ~ ID ~ 数量 ~  角色ID ~ 是否显示 ~
+INT
+INT
+INT
+INT
+INT
+设置任务EX 名字 ~  描述 ~ 消失条件 ~
+STRING
+STRING
+INT
+设置触发  地图 ~ 角色名字 ~ 得到物品 类型 ~ ID ~ 数量 ~
+STRING
+STRING
+INT
+INT
+INT
+设置触发  地图 ~ 角色名字 ~ 得到钱 ~ 得到经验 ~
+STRING
+STRING
+INT
+INT
+设置对话方式 0到4表示频道,-1表示主剧情对话 ~
+INT
+设置触发 主角等级 ~
+INT
+设置任务角色 任务名 ~ 角色文件名 ~  所在地图名 ~ 位置 ~ ~ 方向 ~ 位置ID ~
+STRING
+STRING
+STRING
+INT
+INT
+INT 
+INT
+删除任务角色 任务名 ~ 角色文件名 ~  
+STRING
+STRING
+进入任务战斗 敌人名 ~
+STRING
+关闭
+检测开关~ 是否为~
+INT
+INT

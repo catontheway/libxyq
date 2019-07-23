@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="_inc.h" />
+    <ClInclude Include="pack.h" />
+    <ClInclude Include="was.h" />
+    <ClInclude Include="repeat.h" />
+    <ClInclude Include="..\libcc\cWas.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\efolder.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libwas.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\libcc\cWas.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\efolder.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libcc">
+      <UniqueIdentifier>{3d06f74d-8d43-4080-af03-84142105dd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib32">
+      <UniqueIdentifier>{15faad35-9423-4dfa-815c-5a4130df1c29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

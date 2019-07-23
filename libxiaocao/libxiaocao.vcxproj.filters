@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libtask">
+      <UniqueIdentifier>{ba80869c-2bc7-499f-972c-ceb692591917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtrigger">
+      <UniqueIdentifier>{2850e0c7-c61b-43e4-b23b-2bc8fb360e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libstate">
+      <UniqueIdentifier>{be8e79c2-16ee-4fff-8476-45b4108b025b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libskill">
+      <UniqueIdentifier>{16e120a1-2252-47aa-a7b8-369e3b97a371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libitem">
+      <UniqueIdentifier>{7bc04b29-aa45-4f3a-abe6-0c874f15a8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libui">
+      <UniqueIdentifier>{fe370da3-78a5-42f2-960f-921652b9ad7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobj">
+      <UniqueIdentifier>{6706d708-ab4a-438a-8143-d4a71a3b4b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libai">
+      <UniqueIdentifier>{5d79df35-7a63-42fc-8f29-109f44d2eac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libzhuxian">
+      <UniqueIdentifier>{3f555172-14cd-443a-a3e0-35a1ea316540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libass">
+      <UniqueIdentifier>{312f42ac-41cb-45a2-af03-859304d1a2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="liblxy5">
+      <UniqueIdentifier>{86967d82-b18c-4dbb-88f9-e4c6df422570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{a714b2b0-a8a6-4486-80a1-e08ab125e7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtxt5">
+      <UniqueIdentifier>{d9cc9ecb-67dc-48fb-87d8-ca9601a07045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\liblxy5\MyScript.cpp" />
+    <ClCompile Include="..\liblxy5\TaskFather.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskJuQing.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhiXian.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskHuoDong.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskBaotu.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskMapObj.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskNormal.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuaGui.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskBangPai.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskSM.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFB.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFB_SL.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFB_SJ.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFB_SM.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFB_CC.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFB_WJ.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TriggerGive.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TriggerObj.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TriggerTime.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TriggerDialog.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TriggerLv.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TriggerMapObj.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Trigger.cpp">
+      <Filter>libtrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\FightState.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MenuState.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\EndState.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MenPaiManager.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskJiangLi.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ItemManager.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Item.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ItemManager_Load.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ItemManager_HPMP.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ItemManager_Desc.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ItemManager_AutoProperty.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ItemManager_Effect.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiAccelator.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiPCHead.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiBigMagic.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiChannel.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiItem.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiTeam.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiTag.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiWorld.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiRanSe.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiLearnSkillBP.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiInput.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiDesc.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiBuy.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiBuyPet.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiConduct.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiFight.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiDialog.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiFriend.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiFriendQH.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiShiChen.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiSmap.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiFB.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiSee.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiPet.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiSkill.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiJob.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiSys.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiMenu.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiCursor.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiXL.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiBank.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiFriendSelect.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiDaZao.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiJiaJu.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MyMap.cpp" />
+    <ClCompile Include="..\liblxy5\uiGive.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiJianDing.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiLearnSkill.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiPetSkill.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiState.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Item2.cpp">
+      <Filter>libitem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\A_Start.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Canvas.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Input.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Map.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\mysound.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Wdf.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Count.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Check.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Stage.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_HpMp.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Effect.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Use.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_BuffUp.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_BuffDown.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Battle.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Other.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Obj.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Show.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Init.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Func.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\FightState_Dowork.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Character.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\CharacterData.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Npc.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Obj.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ObjWas.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ObjWasFather.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Pet.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Picture.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Sprite.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\FangWu.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\PCData.cpp" />
+    <ClCompile Include="..\liblxy5\PetData.cpp" />
+    <ClCompile Include="..\liblxy5\PropertyData.cpp" />
+    <ClCompile Include="..\liblxy5\ChangeColor.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Controler.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\FaceText.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\IntData.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\PointZZXL.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Text.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\WasFile.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ChangeColorData.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\FightData.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MainState_Auto.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiFather.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtChat.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtItem.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtJiaju.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtMap.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtMenpai.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtModelPet.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtModelPet2.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtModelRole.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtNpc.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtSkill.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtWeapon.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtZuoqi.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Use3.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\SkillManager_Use2.cpp">
+      <Filter>libskill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\Fightwork.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtZZ.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtShop.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiXiangRui.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtFoot.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libtxt5\TxtScript.cpp">
+      <Filter>libtxt5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_2.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_3000.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_finds.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_findTarget.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_if0.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_mp.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\AI_static.cpp">
+      <Filter>libai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\cct.cpp" />
+    <ClCompile Include="..\liblxy5\MainState_InitGame.cpp">
+      <Filter>libstate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ccm.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ZuoQiData.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\ZuoQi.cpp">
+      <Filter>libobj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\MyMath.cpp">
+      <Filter>liblxy5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\PetManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\liblxy5\Script.cpp" />
+    <ClCompile Include="..\liblxy5\uiComPet.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\uiSign.cpp">
+      <Filter>libui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_0.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_1.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_2.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_3.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_4.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_5.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_6.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_7.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian_8.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskZhuXian.cpp">
+      <Filter>libzhuxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\liblxy5\TaskFengYao.cpp">
+      <Filter>libtask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libass\cBass.cpp">
+      <Filter>libass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cFolder.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\liblxy5\MyScript.h" />
+    <ClInclude Include="..\liblxy5\TaskZhiXian.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskFather.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskJuQing.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskHuoDong.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskBaotu.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskMapObj.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskNormal.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskZhuaGui.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskBangPai.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskSM.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskFB.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TriggerGive.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TriggerObj.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TriggerTime.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TriggerDialog.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TriggerLv.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TriggerMapObj.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Trigger.h">
+      <Filter>libtrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\FightState.h">
+      <Filter>libstate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\MenuState.h">
+      <Filter>libstate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\EndState.h">
+      <Filter>libstate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\MenPaiManager.h">
+      <Filter>libskill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\SkillManager.h">
+      <Filter>libskill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskJiangLi.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\ItemManager.h">
+      <Filter>libitem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Item.h">
+      <Filter>libitem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiAccelator.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiPCHead.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiFather.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiBigMaigc.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiChannel.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiItem.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiTeam.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiTag.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiWorld.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiRanSe.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiLearnSkillBP.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiInput.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiDesc.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiBuy.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiBuyPet.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiConduct.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiFight.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiDialog.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiFriend.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiFriendQH.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiShiChen.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiSmap.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiFB.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiPetSkill.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiSee.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiPet.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiSkill.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiJob.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiSys.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiMenu.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiCursor.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiState.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiLearnSkill.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiXL.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiGive.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiBank.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiJianDing.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiFriendSelect.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiDaZao.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiJiaJu.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\MyMap.h" />
+    <ClInclude Include="..\liblxy5\MainState.h">
+      <Filter>libstate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\eMenPai.h">
+      <Filter>libskill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Item2.h">
+      <Filter>libitem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\SkillData.h">
+      <Filter>libskill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_base.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_global.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_inc.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_obj.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_objinc.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_state.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_stateinc.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_task.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_taskinc.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_ui.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_uiinc.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\A_Start.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Canvas.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Input.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Map.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\mysound.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\resource.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Wdf.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Character.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\CharacterData.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Npc.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Obj.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\ObjWas.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\ObjWasFather.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Pet.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Picture.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Sprite.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\FangWu.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\PCData.h" />
+    <ClInclude Include="..\liblxy5\PetData.h" />
+    <ClInclude Include="..\liblxy5\PropertyData.h" />
+    <ClInclude Include="..\liblxy5\ChangeColor.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Controler.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\FaceText.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\IntData.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\JinJie.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\PointZZXL.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Text.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\WasFile.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\ChangeColorData.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\eObj.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\Object.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\FightData.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\_txt.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\_txtinc.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\eModel.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtChat.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtItem.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtJiaju.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtMap.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtMenpai.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtModelPet.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtModelRole.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtNpc.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtSkill.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtWeapon.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtZuoqi.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\FightWork.h">
+      <Filter>libstate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtZZ.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtShop.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiXiangRui.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtFoot.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libtxt5\TxtScript.h">
+      <Filter>libtxt5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\AI.h">
+      <Filter>libai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\cct.h" />
+    <ClInclude Include="..\liblxy5\ccm.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\ZuoQiData.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\ZuoQi.h">
+      <Filter>libobj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\MyMath.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\PetManager.h" />
+    <ClInclude Include="..\liblxy5\ePet.h" />
+    <ClInclude Include="..\liblxy5\ePetSkill.h" />
+    <ClInclude Include="..\liblxy5\Script.h" />
+    <ClInclude Include="..\liblxy5\_asert.h">
+      <Filter>liblxy5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiComPet.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\uiSign.h">
+      <Filter>libui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\liblxy5\TaskZhuXian.h">
+      <Filter>libzhuxian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\liblxy5\TaskFengYao.h">
+      <Filter>libtask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libass\cBass.h">
+      <Filter>libass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cFolder.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libxiaocao.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,275 @@
+#pragma once
+#include "CharacterData.h"
+#include "ePet.h"
+
+enum class eModel
+{
+	剑侠客jx = eJueSe::eJuSe剑侠客,
+	逍遥生xy = eJueSe::eJuSe逍遥生, 逍遥生h2,
+	飞燕女fy = eJueSe::eJuSe飞燕女, 飞燕女f2,
+	英女侠yn = eJueSe::eJuSe英女侠, 英女侠y2,
+	虎头怪ht = eJueSe::eJuSe虎头怪, 虎头怪h2,
+	巨魔王jm = eJueSe::eJuSe巨魔王, 巨魔王j2,
+	骨精灵gj = eJueSe::eJuSe骨精灵, 骨精灵g2,
+	狐美人hm = eJueSe::eJuSe狐美人, 狐美人h2,
+	龙太子lt = eJueSe::eJuSe龙太子, 龙太子l2,
+	神天兵st = eJueSe::eJuSe神天兵, 神天兵s2,
+	玄彩蛾xc = eJueSe::eJuSe玄彩蛾, 玄彩蛾x2,
+	舞天姬wt = eJueSe::eJuSe舞天姬, 舞天姬w2,
+	巫蛮儿wm = eJueSe::eJuSe巫蛮儿,
+	羽灵神yl = eJueSe::eJuSe羽灵神,
+	杀破狼sp = eJueSe::eJuSe杀破狼,
+	偃无师yw = eJueSe::eJuSe偃无师,
+	桃夭夭ty = eJueSe::eJuSe桃夭夭,
+	鬼潇潇gx = eJueSe::eJuSe鬼潇潇,
+
+	泡泡pp = ePetID::e泡泡,
+	大海龟dh = ePetID::e大海龟,
+	章鱼zy = ePetID::e章鱼,
+	海星hx = ePetID::e海星,
+	护卫hw = ePetID::e护卫,
+	// 5
+	狸l = ePetID::e小浣熊,
+	巨蛙jw = ePetID::e巨蛙,
+	树怪sg = ePetID::e树怪,
+	赌徒dt,
+	强盗qd,
+	海毛虫hm,
+	大蝙蝠db,
+	山贼sz,
+	野猪yz,
+	// 15
+	骷髅怪kl,
+	羊头怪yt,
+	蛤蟆精hm,
+	狐狸精hl = ePetID::e狐狸精,
+	老虎lh = ePetID::e老虎,
+	黑熊hx,
+	花妖hy,
+	// 25
+	牛妖ny,
+	小龙女xl,
+	野鬼yg,
+	狼l,
+	虾兵xb,
+	蟹将xj,
+	// 35
+	龟丞相gc,
+	兔子怪tz,
+	蜘蛛精zz,
+	黑熊精hx,
+	僵尸js,
+	牛头nt,
+	马面mm,
+	// 45
+	雷鸟人ln,
+	蝴蝶仙子hd,
+	古代瑞兽gd,
+	白熊bx,
+	黑山老妖hs,
+	// 55
+	天兵tb,
+	天将tj,
+	地狱战神dy,
+	风伯fb,
+	// 65
+	凤凰fh,
+	蛟龙jl,
+	雨师ys,
+	蚌精bj = ePetID::e蚌精,
+	鲛人jr = ePetID::e鲛人,
+	碧水夜叉bs = ePetID::e碧水夜叉,
+	// 75
+	如意仙子ry = ePetID::e如意仙子,
+	芙蓉仙子fr,
+	巡游天神xy,
+	星灵仙子xl,
+	锦毛貂精jm = ePetID::e锦毛貂精,
+	千年蛇魅qn,
+	犀牛将军人xn,
+	犀牛将军xn,
+	// 85
+	镜妖jy = ePetID::e镜妖,
+	泪妖ly = ePetID::e泪妖,
+	野猪精yz = ePetID::e野猪精,
+	鼠先锋sx,
+	百足将军bz,
+	// 95
+	律法女娲lf = ePetID::e律法女娲,
+	灵符女娲lf,
+	幽灵yl = ePetID::e幽灵,
+	吸血鬼xx = ePetID::e吸血鬼,
+	阴阳伞yy = ePetID::e阴阳伞,
+	// 105
+	鬼将gj = ePetID::e鬼将,
+	净瓶女娲jp = ePetID::e净瓶女娲,
+	画魂hh = ePetID::e画魂,
+	幽萤娃娃yy = ePetID::e幽萤娃娃,
+	// 125
+	雾中仙wz = ePetID::e雾中仙,
+	灵鹤lh,
+	炎魔神ym = ePetID::e炎魔神,
+	噬天虎st,
+	// 飞升125
+	琴仙qx = ePetID::e琴仙,
+	金铙僧jn = ePetID::e金铙僧,
+	大力金刚dl = ePetID::e大力金刚,
+	夜罗刹yl = ePetID::e夜罗刹,
+	// 135
+	踏云兽ty = ePetID::e踏云兽,
+	红萼仙子he = ePetID::e红萼仙子,
+	蝎子精xz = ePetID::e蝎子精,
+	葫芦宝贝hl = ePetID::e葫芦宝贝,
+	// 飞升135
+	龙龟lg = ePetID::e龙龟,
+	机关车jg = ePetID::e机关人车,
+	机关人jg = ePetID::e机关人,
+	猫灵ml = ePetID::e猫灵,
+	狂豹kb = ePetID::e狂豹,
+	// 145
+	机关兽jg = ePetID::e机关兽,
+	机关鸟jg,
+	// 飞升145
+	连弩车ln = ePetID::e连弩车,
+	巴蛇bs = ePetID::e巴蛇,
+	// 飞升155
+	长眉灵猴cm = ePetID::e长眉灵猴,
+	巨力神猿jl,
+	修罗傀儡鬼xl,
+	藤蔓妖花tm,
+	蜃气妖lq,
+	
+	// 渡劫155
+	猫灵人ml = ePetID::e猫灵人,
+	狂豹人kb = ePetID::e狂豹人,
+	混沌兽hd = ePetID::e混沌兽,
+	// 渡劫165
+	修罗傀儡妖xl = ePetID::e修罗傀儡妖,
+	金身罗汉js,
+	曼珠沙华mz,
+	// 渡劫175
+	灵灯侍者ld = ePetID::e灵灯侍者,
+	真陀护法zt = ePetID::e真陀护法,
+	持国巡守cg = ePetID::e持国巡守,
+	增长巡守zz = ePetID::e增长巡守,
+	毗舍童子ps = ePetID::e毗舍童子,
+	// 化圣175
+	般若天女br = ePetID::e般若天女,
+	// 孩子
+	小毛头xm = ePetID::e小毛头,
+	小丫丫xy,
+	小仙灵xx,
+	小仙女xx,
+	小精灵xj,
+	小魔头xm,
+	// 神兽
+	人参娃娃rs = ePetID::e超级人参娃娃,
+	超级泡泡cj = ePetID::e超级泡泡,
+	大熊猫dx = ePetID::e超级大熊猫,
+	金猴jh,
+	大象dx,
+	白泽bz,
+	灵鹿ll,
+	赤焰兽cy,
+	大鹏dp,
+	筋斗云jd = ePetID::e超级筋斗云,
+	海豚ht = ePetID::e超级海豚,
+	玉兔yt = ePetID::e超级玉兔,
+	孔雀kq,
+	灵狐lh,
+	青鸾ql = ePetID::e超级青鸾,
+	麒麟ql,
+	六耳猕猴le = ePetID::e六耳猕猴,
+	土地公公td = ePetID::e土地,
+	// 生肖
+//	神鼠ss,
+	神牛sn = ePetID::e超级神牛,
+	神虎sh,
+	神兔st = ePetID::e超级神兔,
+	神龙sl = ePetID::e超级神龙,
+	神蛇ss = ePetID::e超级神蛇,
+	神马sm,
+	神羊sy = ePetID::e超级神羊,
+	神猴sh = ePetID::e神猴,
+	神鸡sj = ePetID::e神鸡,
+//	神狗sg,
+//	神猪sz,
+	// 门派师傅
+	程咬金cy = ePetID::e程咬金,
+	东海龙王dh = ePetID::e东海龙王,
+	白晶晶bj = ePetID::e白晶晶,
+	菩提祖师pt = ePetID::e菩提祖师,
+	牛魔王nm = ePetID::e牛魔王,
+	空度禅师kd = ePetID::e空度禅师,
+	观音姐姐gy = ePetID::e观音姐姐,
+	孙婆婆sp = ePetID::e孙婆婆,
+	镇元大仙zy = ePetID::e镇元大仙,
+	大大王dd = ePetID::e大大王,
+	李靖lj = ePetID::e李靖,
+	地藏王dz = ePetID::e地藏王,
+	二郎神el = ePetID::e二郎神,
+	地涌夫人dy = ePetID::e地涌夫人,
+	巫奎虎wk = ePetID::e巫奎虎,
+	// Npc
+	啸天犬xt = ePetID::e啸天犬,
+	火星人hx = ePetID::e火星人,
+	占卜师zp = ePetID::e烟花占卜师,
+	转轮王zl = ePetID::e转轮王,
+	九色鹿js = ePetID::e九色鹿,
+	腾蛇ts = ePetID::e腾蛇,
+	善财童子sc = ePetID::e善财童子,
+	周杰伦zj = ePetID::e周杰伦,
+	// Boss
+	孙悟空sw = ePetID::e孙悟空,
+	猪八戒zb = ePetID::e猪八戒,
+	沙和尚sh = ePetID::e沙和尚,
+	貔貅px = ePetID::e赛太岁,
+	九头怪jt = ePetID::e九头精怪,
+	黄眉怪hm = ePetID::e知了王,
+	蚩尤cy = ePetID::e蚩尤,
+	雪人xr = ePetID::e雪人,
+	小白泽xb = ePetID::e小白泽,
+	小象xx = ePetID::e小象,
+	小泡泡xp = ePetID::e小泡泡,
+	龙马lm = ePetID::e龙马,
+	剑灵jl = ePetID::e剑灵,
+	无痕wh = ePetID::e无痕,
+	慧海hh = ePetID::e慧海,
+	镖头bt = ePetID::e镖头,
+	蜈蚣wg = ePetID::蜈蚣,
+	镜主jz = ePetID::镜主,
+	舞天wt = ePetID::e舞天姬,
+	逍遥xy = ePetID::e逍遥生,
+	飞燕fy = ePetID::e飞燕女,
+	英女yn = ePetID::e英女侠,
+	虎头ht = ePetID::e虎头怪,
+	巨魔jm = ePetID::e巨魔王,
+	骨精gj = ePetID::e骨精灵,
+	狐美hm = ePetID::e狐美人,
+	龙太lt = ePetID::e龙太子,
+	神天st = ePetID::e神天兵,
+	玄彩xc = ePetID::e玄彩蛾,
+	巫蛮wm = ePetID::e巫蛮儿,
+	羽灵yl = ePetID::e羽灵神,
+	杀破sp = ePetID::e杀破狼,
+	偃无yw = ePetID::e偃无师,
+	桃夭ty = ePetID::e桃夭夭,
+	鬼潇gx = ePetID::e鬼潇潇,
+	
+
+};
+
+inline bool isModelRole(const eModel &e)
+{
+	return e < eModel::泡泡pp;
+}
+
+inline eModel getModelForBegin()
+{
+	return eModel::剑侠客jx;
+}
+
+inline eModel getModelForEnd()
+{
+	return eModel::蚩尤cy;
+}
