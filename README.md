@@ -10,6 +10,8 @@ cocos2dx基本框架
 检测器
 # libmap2d
 地图工具、全景图、图块、遮罩、障碍位图
+# library
+lib和dll
 # librowser
 资源处理、筛选、对比、预览
 # libwas
