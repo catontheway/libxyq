@@ -34,4 +34,8 @@ lib和dll
 
 浪西游体验版
 # 开发环境
-Visual Studio 2017   使用C++的桌面开发   对C++的Windows XP支持
+Visual Studio 2017
+
+使用C++的桌面开发
+
+对C++的Windows XP支持
