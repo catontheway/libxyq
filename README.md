@@ -4,7 +4,6 @@ windows下的 窗体、A星寻路、鼠键输入、主循环、音频
 梦幻群侠传5
 
 梦幻群侠传5.日期版
-梦幻群侠传5.日期版
 # libass
 bass音频库 (http://www.un4seen.com/)
 # libcoco
