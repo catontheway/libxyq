@@ -116,36 +116,33 @@ void cMySound::Load(std::string path)
 
 	if (s_map.find(path) == s_map.end())
 	{
-		path = "战斗BOSS";
-	}
-
-	const auto& it = s_map.find(path);
-	if (it == s_map.end())
-	{
-		if (g_pMainState->m_GlobalButton[16] == 0)
+		std::ifstream ifile(g_strMediaPath + "music/" + path + ".mp3", std::ios::binary);
+		if (ifile.is_open())
 		{
-			// 播放mp3文件
-			char* ptr = nullptr;
-			int size;
-			std::ifstream ifile(g_strMediaPath + path + ".mp3", std::ios::binary);
-			if (ifile.is_open())
+			if (g_pMainState->m_GlobalButton[16] == 0)
 			{
+				// 播放mp3文件
+				char* ptr = nullptr;
+				int size;
 				ifile.seekg(0, std::ios::end);
 				size = ifile.tellg();
 				ptr = new char[size];
 				ifile.seekg(std::ios::beg);
 				ifile.read(ptr, size);
 				ifile.close();
+				if (ptr != nullptr)
+				{
+					static ulong uid = 0;
+					cBass::getInstance()->play(_uid = ++uid, ptr, size);
+				}
 			}
-			if (ptr != nullptr)
-			{
-				static ulong uid = 0;
-				cBass::getInstance()->play(_uid = ++uid, ptr, size);
-			}
+			return;
 		}
-		return;
+		path = "战斗BOSS";
 	}
-	if (_uid == it->second)
+
+	const auto& it = s_map.find(path);
+	if (it == s_map.end() || _uid == it->second)
 	{
 		return;
 	}
